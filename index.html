@@ -89,7 +89,7 @@
             </div>
 
             <div class="shipping-address-container">
-                <p class="contact-info-title">Shipping address</p>
+                <p class="shipping-title">Shipping address</p>
 
                 <div class="fullname-container">
                     <p class="fullname-title">Fullname</p>
@@ -103,26 +103,29 @@
                     <p class="city-title">City</p>
                     <input class="city-input" type="text" placeholder="Your city...">
                 </div>
-
-                <div class="country-container">
-                    <p class="country-title">Country</p>
-                    <select class="country-input">
-                        <option value="" hidden>Your country..</option>
-                        <option value="usa">USA</option>
-                        <option value="germany">Germany</option>
-                        <option value="france">France</option>
-                    </select>
-                </div>
-                <div class="postal-code-container">
-                    <p class="postal-code-title">Postal code</p>
-                    <input class="postal-code-input" type="text" placeholder="Your postal code..">
+                <div class="country-postal-code-container">
+                    <div class="country-container">
+                        <p class="country-title">Country</p>
+                        <select class="country-input">
+                            <option value="" hidden>Your country..</option>
+                            <option value="usa">USA</option>
+                            <option value="germany">Germany</option>
+                            <option value="france">France</option>
+                        </select>
+                    </div>
+                    <div class="postal-code-container">
+                        <p class="postal-code-title">Postal code</p>
+                        <input class="postal-code-input" type="text" placeholder="Your postal code..">
+                    </div>
                 </div>
             </div>
 
-            <label>
-                <input type="checkbox">
-                Save the information for the next time
-            </label>
+            <div class="save-info-container">
+                <label>
+                    <input type="checkbox">
+                    Save the information for the next time
+                </label>
+            </div>
         </div>
 
         <div class="submit-container">

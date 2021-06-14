@@ -147,3 +147,117 @@ hr {
 .total {
     padding-bottom: 20px;
 }
+
+/* CUSTOMER INFO */
+
+.customer-info {
+    margin-top: 39px;
+}
+.contact-info {    
+    margin-bottom: 43px;
+}
+.contact-info-title,
+.shipping-title {
+    margin-bottom: 11.49px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #333333;
+}
+.phone-container,
+.address-container,
+.city-container,
+.country-postal-code-container {
+    margin-top: 16.52px;
+}
+.email-title,
+.phone-title,
+.fullname-title,
+.address-title,
+.city-title,
+.country-title,
+.postal-code-title {
+    margin-bottom: 5.23px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #4F4F4F;
+}
+
+input[type="text"], 
+select.country-input{
+    width: 100%;
+    height: 40.56px;
+
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+input[type="text"]::placeholder {
+    padding-left: 11.75px;
+
+    font-family: Montserrat;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #828282;
+}
+
+.country-postal-code-container {
+    display: flex;
+    justify-content: space-between;
+}
+.country-container,
+.postal-code-container {
+    width: 50%;
+}
+.country-container {
+    margin-right: 23.28px;
+}
+
+.save-info-container {
+    margin-top: 17px;
+
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #4F4F4F;
+}
+.save-info-container label{
+    display: flex;
+    align-items: center;
+}
+.save-info-container input {
+    margin-right: 7.78px;
+    width: 16px;
+    height: 15px;
+
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.submit-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.submit-container button{
+    margin-top: 37.5px;
+    width: 166px;
+    height: 54px;
+
+    background: #F2994A;
+    border-radius: 12px;
+    border: none;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
