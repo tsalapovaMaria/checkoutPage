@@ -201,7 +201,7 @@ hr {
 
   color: #4f4f4f;
 }
-input[type="text"],
+input,
 select.country-input {
   padding-left: 42px;
 
@@ -212,7 +212,7 @@ select.country-input {
   box-sizing: border-box;
   border-radius: 12px;
 }
-input[type="text"]::placeholder {
+input::placeholder {
   font-family: Montserrat;
 
   font-weight: 600;
@@ -221,7 +221,7 @@ input[type="text"]::placeholder {
 
   color: #828282;
 }
-input[type="text"]:focus {
+input:focus {
     border:none;
 }
 svg {
