@@ -99,6 +99,12 @@ hr {
   border: none;
   border-radius: 4px;
 }
+.items-button:hover {
+  background: #c0c0c0;
+}
+.items-button:active {
+  background: #e6e6e6;
+}
 .less-items::before,
 .more-items::before,
 .more-items::after {
@@ -157,7 +163,7 @@ hr {
   margin-bottom: 43px;
 }
 .contact-info-title,
-.shipping-title {
+.shipping-address-title {
   margin-bottom: 11.49px;
 
   font-weight: 600;
@@ -214,6 +220,9 @@ input[type="text"]::placeholder {
   line-height: 15px;
 
   color: #828282;
+}
+input[type="text"]:focus {
+    border:none;
 }
 svg {
   position: absolute;
@@ -280,6 +289,12 @@ svg {
 
   color: #ffffff;
 }
+.submit-container button:hover {
+    background: #fab477;
+}
+.submit-container button:active {
+    background: #c87e3e;
+}
 
 @media all and (min-width: 1000px) {
   body {
@@ -310,7 +325,7 @@ svg {
     margin-right: 112px;
   }
   .contact-info-title,
-  .shipping-title {
+  .shipping-address-title {
     font-size: 18px;
   }
   .email-container {
