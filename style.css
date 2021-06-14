@@ -261,3 +261,31 @@ input[type="text"]::placeholder {
 
     color: #FFFFFF;
 }
+
+@media all and (min-width: 1000px){
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .main-content{
+        padding-top: 64px;
+        padding-bottom: 64px;
+        min-width: 1000px;
+        max-width: 1200px;        
+    }
+    .main-container-flex {
+        display: flex;
+        flex-direction: row-reverse;
+
+        justify-content: space-between;
+    }
+    .checkout-items-container {
+        width: 40%;
+    }
+    .customer-info-container {
+        width: 60%;
+        margin-right: 112px;
+    }
+
+
+}

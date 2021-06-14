@@ -18,118 +18,123 @@
     <div class="main-content">
         <h1 class="main-title">Checkout</h1>
 
-        <div class="checkout-items">
-            <section class="item vintage-backbag">
-                <img src="/checkout-page-master/photo1.png" alt="">
+        <div class="main-container-flex">
+            <div class="checkout-items-container">
+                <div class="checkout-items">
+                    <section class="item vintage-backbag">
+                        <img src="/checkout-page-master/photo1.png" alt="">
 
-                <div class="checkout-item-price-container">
-                    <div class="checkout-item-title-price">
-                        <p class="checkout-item-title">Vintage Backbag</p>
+                        <div class="checkout-item-price-container">
+                            <div class="checkout-item-title-price">
+                                <p class="checkout-item-title">Vintage Backbag</p>
 
-                        <div class="price-container">
-                            <p class="new-price">$54.99</p>
-                            <p class="old-price">$94.99</p>
+                                <div class="price-container">
+                                    <p class="new-price">$54.99</p>
+                                    <p class="old-price">$94.99</p>
 
+                                </div>
+                            </div>
+                            <div class="item-quantity-container">
+                                <button class="items-button less-items"></button>
+                                <p class="items-quantity">1</p>
+                                <button class="items-button more-items"></button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="item levi-shoes">
+                        <img src="/checkout-page-master/photo2.png" alt="">
+
+                        <div class="checkout-item-price-container">
+                            <p class="checkout-item-title">Levi Shoes</p>
+
+                            <div class="price-container">
+                                <p class="new-price">$74.99</p>
+                                <p class="old-price">$124.99</p>
+
+                            </div>
+                            <div class="item-quantity-container">
+                                <button class="items-button less-items"></button>
+                                <p class="items-quantity">1</p>
+                                <button class="items-button more-items"></button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <hr class="price-devider">
+
+                    <div class="shipping">
+                        <p class="shipping-title">Shipping</p>
+                        <p class="shipping-price">$19</p>
+                    </div>
+
+                    <hr>
+
+                    <div class="total">
+                        <p class="total-title">Total</p>
+                        <p class="total-price">$148.98</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer-info-container">
+                <div class="customer-info">
+                    <div class="contact-info">
+                        <p class="contact-info-title">Contact information</p>
+
+                        <div class="email-container">
+                            <p class="email-title">Email</p>
+                            <input class="email-input" type="text" placeholder="Enter you email...">
+                        </div>
+                        <div class="phone-container">
+                            <p class="phone-title">Phone</p>
+                            <input class="phone-input" type="text" placeholder="Enter you phone...">
                         </div>
                     </div>
-                    <div class="item-quantity-container">
-                        <button class="items-button less-items"></button>
-                        <p class="items-quantity">1</p>
-                        <button class="items-button more-items"></button>
+
+                    <div class="shipping-address-container">
+                        <p class="shipping-title">Shipping address</p>
+
+                        <div class="fullname-container">
+                            <p class="fullname-title">Fullname</p>
+                            <input class="fullname-input" type="text" placeholder="Rodney Cotton">
+                        </div>
+                        <div class="address-container">
+                            <p class="address-title">Address</p>
+                            <input class="address-input" type="text" placeholder="Your address...">
+                        </div>
+                        <div class="city-container">
+                            <p class="city-title">City</p>
+                            <input class="city-input" type="text" placeholder="Your city...">
+                        </div>
+                        <div class="country-postal-code-container">
+                            <div class="country-container">
+                                <p class="country-title">Country</p>
+                                <select class="country-input">
+                                    <option value="" hidden>Your country..</option>
+                                    <option value="usa">USA</option>
+                                    <option value="germany">Germany</option>
+                                    <option value="france">France</option>
+                                </select>
+                            </div>
+                            <div class="postal-code-container">
+                                <p class="postal-code-title">Postal code</p>
+                                <input class="postal-code-input" type="text" placeholder="Your postal code..">
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </section>
 
-            <section class="item levi-shoes">
-                <img src="/checkout-page-master/photo2.png" alt="">
-
-                <div class="checkout-item-price-container">
-                    <p class="checkout-item-title">Levi Shoes</p>
-
-                    <div class="price-container">
-                        <p class="new-price">$74.99</p>
-                        <p class="old-price">$124.99</p>
-
+                    <div class="save-info-container">
+                        <label>
+                            <input type="checkbox">
+                            Save the information for the next time
+                        </label>
                     </div>
-                    <div class="item-quantity-container">
-                        <button class="items-button less-items"></button>
-                        <p class="items-quantity">1</p>
-                        <button class="items-button more-items"></button>
-                    </div>
-                </div>
-            </section>
-
-            <hr class="price-devider">
-
-            <div class="shipping">
-                <p class="shipping-title">Shipping</p>
-                <p class="shipping-price">$19</p>
-            </div>
-
-            <hr>
-
-            <div class="total">
-                <p class="total-title">Total</p>
-                <p class="total-price">$148.98</p>
-            </div>
-        </div>
-
-        <div class="customer-info">
-            <div class="contact-info">
-                <p class="contact-info-title">Contact information</p>
-
-                <div class="email-container">
-                    <p class="email-title">Email</p>
-                    <input class="email-input" type="text" placeholder="Enter you email...">
-                </div>
-                <div class="phone-container">
-                    <p class="phone-title">Phone</p>
-                    <input class="phone-input" type="text" placeholder="Enter you phone...">
-                </div>
-            </div>
-
-            <div class="shipping-address-container">
-                <p class="shipping-title">Shipping address</p>
-
-                <div class="fullname-container">
-                    <p class="fullname-title">Fullname</p>
-                    <input class="fullname-input" type="text" placeholder="Rodney Cotton">
-                </div>
-                <div class="address-container">
-                    <p class="address-title">Address</p>
-                    <input class="address-input" type="text" placeholder="Your address...">
-                </div>
-                <div class="city-container">
-                    <p class="city-title">City</p>
-                    <input class="city-input" type="text" placeholder="Your city...">
-                </div>
-                <div class="country-postal-code-container">
-                    <div class="country-container">
-                        <p class="country-title">Country</p>
-                        <select class="country-input">
-                            <option value="" hidden>Your country..</option>
-                            <option value="usa">USA</option>
-                            <option value="germany">Germany</option>
-                            <option value="france">France</option>
-                        </select>
-                    </div>
-                    <div class="postal-code-container">
-                        <p class="postal-code-title">Postal code</p>
-                        <input class="postal-code-input" type="text" placeholder="Your postal code..">
+                    <div class="submit-container">
+                        <button class="submit-button">Continue</button>
                     </div>
                 </div>
             </div>
-
-            <div class="save-info-container">
-                <label>
-                    <input type="checkbox">
-                    Save the information for the next time
-                </label>
-            </div>
-        </div>
-
-        <div class="submit-container">
-            <button class="submit-button">Continue</button>
         </div>
     </div>
 </body>
