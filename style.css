@@ -1,0 +1,149 @@
+body, 
+p, 
+hr {
+    margin: 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+}
+.main-content {
+    padding: 32px 12px;
+}
+.main-title {
+    margin: 0;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #4E5150;
+}
+
+.checkout-items {
+    margin-top: 21px;
+    padding: 30px 25px;
+    padding-bottom: 0;
+    background: #F2F2F2;
+    border-radius: 12px;
+}
+
+.item {
+    display: flex;
+    height: 124px;
+}
+.item + .item {
+    margin-top: 30px;
+}
+.item img {
+    width: 122px;
+    height: auto;
+
+    margin-right: 20px;
+    border-radius: 13px;
+}
+.checkout-item-price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.checkout-item-title {
+    font-weight: 600;
+    font-size: 12px;
+}
+.price-container {
+    margin-top: 10px;
+    display: flex;
+
+    align-items: center;
+}
+
+.price-container .new-price {
+    font-weight: 600;
+    font-size: 14px;
+    color: #F2994A;
+}
+.price-container .old-price {
+    margin-left: 10px;
+
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-decoration-line: line-through;
+    color: #4E5150;
+}
+
+.item-quantity-container {
+    padding: 16px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 122.8px;
+    height: 49.86px;
+
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.items-button {
+    position: relative;
+    width: 19.39px;
+    height: 19.39px;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    background: #E0E0E0;
+    border: none;
+    border-radius: 4px;
+}
+.less-items::before, 
+.more-items::before, 
+.more-items::after{
+    content: "";
+    position: absolute;
+    top: 9.7px;
+    left: 4.21px;
+
+    display: block;
+
+    width: 10.97px;
+    height: 1.65px;
+
+    border-radius: 5px;
+
+    z-index: 2;
+    background-color: #828282;
+}
+.more-items::after{
+    transform: rotate(90deg);
+}
+.items-quantity {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #333333;
+}
+.price-devider {
+    margin-top: 86px;
+}
+
+.shipping,
+.total {
+    padding: 9.71px 0;
+    display: flex;
+    justify-content: space-between;
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #333333;
+}
+
+.total {
+    padding-bottom: 20px;
+}
