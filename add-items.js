@@ -33,7 +33,7 @@ Array.from(buttons).forEach((button, buttonIndex) => {
                     totalPriceCounter += +itemNewPrice.textContent.slice(1);
                 });
                 totalQuantity.textContent = +totalQuantity.textContent + action;
-                totalPrice.textContent = `$${totalPriceCounter}`;
+                totalPrice.textContent = `$${totalPriceCounter.toFixed(2)}`;
             }
         });
     };
